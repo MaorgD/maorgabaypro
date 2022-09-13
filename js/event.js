@@ -36,10 +36,6 @@ export const declareEvents = () => {
 
     id_form.addEventListener("submit", e => {
         e.preventDefault()
-        // if (input_search.value.length < 2 ){
-        //     alert("min 2 chars")
-        //     return
-        // }
         createCountry(input_search.value);
 
     })
