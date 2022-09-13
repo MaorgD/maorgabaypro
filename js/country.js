@@ -31,7 +31,7 @@ export default class Country {
   <p class="card-text Mcard-text">Capital : ${this.capital}. </p>
   <p class="card-text Mcard-text" id="id_borders"> This borders : </p>
   <p class="card-text Mcard-text">languages : ${this.languages}. </p>
-  <button id="homebtn" class="btn btn-light my-3 ms-2">Back <i class="fa fa-home" aria-hidden="true"></i></button>
+  <button id="homebtn" class="btn btn-light my-3 ms-2">Home  <i class="fa fa-home" aria-hidden="true"></i></button>
   <div class="Imgflag">
   <img src="${this.flag} " alt="${this.name}" style="width: 100%; height: 100%;">
   </div>
