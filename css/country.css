@@ -1,0 +1,62 @@
+/* inside the card */
+.lank {
+    cursor: pointer;
+    color: lightblue;
+
+}
+.bigbox {
+    max-height: 900px;
+    color: azure;
+}
+
+.Mymap{
+    height: 100%;
+    width: 100%;
+}
+.Mymap iframe{
+    border-radius: 0px 5px 10px 0px;
+}
+.restCardBody{
+    width: 100%;
+}
+.Imgflag{
+    height: 300px;
+    width: 100%;
+}
+
+.Mcard-text{
+    padding: 10px;
+    margin-bottom :0px
+}
+
+.Mcard-header{
+    font-family: 'Caveat', cursive;
+font-family: 'Playfair Display', serif;
+    color: white;  
+
+}
+
+.Mcard-body{
+    border-radius: 5px;
+
+    background-color: black;
+  
+}
+
+@media (max-width:767px){
+    .Imgflag{
+        height: 250px;
+    }
+    .Imgflag img{
+        border-radius: 0px 0px 0px 0px;
+        
+    }
+
+    .Mymap{
+        height: 250px;
+    }
+    .Mymap iframe{
+        border-radius: 0px 0px 5px 5px;
+        
+    }
+}
